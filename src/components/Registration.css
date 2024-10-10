@@ -1,0 +1,190 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-innerbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2db3f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+}
+
+.transparent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.signup-innerbox form {
+    width: 40% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.4rem;
+    /* min-height: 350px; */
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.signup-innerbox h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.signup-innerbox form input {
+    width: 99%;
+    padding: 10px 0px;
+    margin: 5px 0;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: 1px solid #ddd;
+}
+
+.signup-innerbox form button {
+    width: 100%;
+    font-weight: bolder;
+    padding: 12px;
+    margin-top: 6px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header-signup {
+    margin-bottom: 1.8rem;
+}
+
+
+.step-navigation {
+    display: flex;
+    /* position: relative;
+    bottom: 0; */
+    justify-content: space-between;
+    /* Place buttons on the same line */
+    margin-top: 10px;
+    /* Adjust margin as needed */
+}
+
+.back-btn,
+.next-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    background-color: #6C63FF;
+    /* Your button color */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-btn {
+    margin-right: 10px;
+}
+
+.back-btn:hover,
+.next-btn:hover {
+    background-color: #4d4d4d;
+    /* Darken on hover */
+}
+
+.back-btn:disabled,
+.next-btn:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+
+
+.btn-content {
+    display: flex;
+    align-items: center;
+}
+
+#next svg {
+    margin-left: 8px;
+}
+
+#back svg {
+    margin-right: 8px;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+#last svg {
+    margin-right: 8px;
+}
+
+.next-btn:hover {
+    background-color: #4d4d4d;
+}
+
+
+
+
+
+
+.react-select__control {
+    border-radius: 8px;
+    font-weight: normal;
+    border: none;
+    box-shadow: rgba(16, 20, 55, 0.07) 2px 4px 16px 0px;
+    font-size: 16px;
+    padding-left: 18px;
+    min-height: 40px;
+    color: rgb(77, 77, 77);
+    display: flex;
+    cursor: default;
+    /* No input cursor */
+    transition: border 0.25s ease-in, box-shadow 0.25s ease-in;
+}
+
+.react-select__value-container {
+    padding-left: 0;
+    cursor: pointer;
+    /* Pointer for clickable area */
+}
+
+.react-select__multi-value {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+
+.react-select__multi-value__label {
+    color: #333;
+}
+
+.react-select__multi-value__remove {
+    color: #666;
+}
+
+.react-select__indicator {
+    cursor: pointer;
+    /* Pointer for dropdown indicator */
+}
+
+.Select__menu-list {
+    max-height: 120px !important;
+}

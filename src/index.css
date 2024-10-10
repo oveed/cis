@@ -1,0 +1,43 @@
+:root {
+
+  background-color: #ffffff;
+  --base: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root label {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+:root p {
+  font-size: 16px;
+  margin: 0.1rem;
+}
+
+:root h4 {
+  font-size: 18px;
+}
+
+:root h3 {
+  font-size: 22px;
+}
+
+:root h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+:root h1 {
+  font-size: 42px;
+}
+
+
+
+body {
+  margin: 0;
+}
